@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dahiya</title>
+
+  <!-- fav icon -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/fonts/style.css">
+  <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="assets/css/intlTelInput.css" />
+</head>
+
+<body class="login-pages">
+  <header class="p-3">
+    <div class="container">
+      <img src="./img/icon/logo.svg" alt="Dahiya OTT Logo" class="logo" height="50" width="auto">
+    </div>
+  </header>
+  <main>
+    <div class="container h-100">
+      <div class="row align-items-center justify-content-between h-100 loginscreen">
+        <div class="col-lg-6">
+          <div class="welcome-section">
+            <h1 class="text-24 fw-semibold font-Montserrat">Welcome to <span
+                class="text-gradient text-80 font-bolder d-block font-Montserrat">Dahiya OTT</span></h1>
+            <p class="text-28 ">Log in to access your favorite movies, <br />series, and exclusive content
+              <br />anytime, anywhere.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="login-form mx-lg-5 mx-0 position-relative">
+            <div class="backbutton">
+              <i class="rounded-circle bg-dark py-1 px-2 position-absolute"><img src="./img/icon/arrow-left.svg" alt=""
+                  width="15" height="15" /></i>
+            </div>
+            <h2 class="text-center text-26 fw-semibold font-monorape">Checkout</h2>
+            <form>
+              <div class="payment-form mt-5">
+                <h4 class="text-14 font-poppins">Selected Plan</h4>
+                <div class="selected-plan p-4">
+                  <h5 class="text-18 mb-0 font-monorape fw-semibold">Freemium</h5>
+                  <h5 class="fw-semibold font-monorape text-24 mb-0">₹199<span
+                      class="fw-normal text-14 opacity-50 ms-1">/month</span></h5>
+                </div>
+                <form class="card-details">
+                  <label class="mb-2 font-poppins text-14">
+                    Card Details
+                  </label>
+                  <div class="form-group mb-3">
+                    <input type="text" placeholder="Card Name" class="form-control" required>
+                  </div>
+                  <div class="form-group mb-3">
+                    <input type="text" placeholder="Card Number" class="form-control" required>
+                  </div>
+                  <div class="row align-items-center g-3 mb-3">
+                    <div class="col-7"><input type="text" placeholder="Expiry Date" class="form-control" required></div>
+                    <div class="col-5"><input type="text" placeholder="CVV" class="form-control" required></div>
+                  </div>
+                  <button type="submit" class="btn btn-gradient" data-bs-toggle="modal" data-bs-target="#paynow">Pay Now</button>
+                </form>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+<!-- Modal -->
+<div class="modal fade" id="paynow" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center bg-dark rounded-4">
+      <div class="modal-header border-0">
+       
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(1);"></button>
+      </div>
+      <div class="modal-body">
+        <div class="col-10 mx-auto">
+          <figure class=" text-center">
+            <img src="./img/icon/check.png" alt="" width="150" height="150"/>
+          </figure>
+          <h4 class="text-24 font-monorape fw-semibold">Payment Successful</h4>
+          <p class="text-14 font-monorape fw-normal opacity-50 mb-3">Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.</p>
+          <button type="button" class="btn btn-gradient">Back to login</button>
+        </div>
+        
+       
+      </div>
+      <div class="modal-footer border-0">
+       
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- end -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

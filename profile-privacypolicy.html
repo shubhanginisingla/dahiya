@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dahiya</title>
+
+   <!-- fav icon -->
+   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="lib/animate/animate.min.css">
+
+
+  <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="lib/fonts/style.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <!--==========================
+  Header
+  ============================-->
+
+  <header id="header">
+	<div class="container">
+	  <div class="menu_main d-flex align-items-center">
+		<div class="navbar-brand logo p-0 d-flex align-items-center">
+		  <a href="index.html"><span><img src="img/icon/logo.svg" alt="Courtier" /></span></a>
+		</div>
+		<div class="d-flex flex-row-reverse align-items-center w-100 justify-content-between notifi-search-pro">
+		  <div class="col-lg-2 text-end">
+			<ul class="top-ul notify-sections">
+			  <li class="list-search">
+				<a href="javascript:void(0)" class="" data-bs-toggle="dropdown" aria-expanded="true">
+				  <i><img src="./img/icon/search_icon.svg" alt="" /></i></span>
+				</a>
+				<div class="drop-down dropdown-menu-end position-absolute dropdown-menu h-auto">                
+				  <div class="col-11 mx-auto ">
+					<div class="input-group p-1 mt-3">
+					  <input type="text" id="search-bar" placeholder="Search movies, character, shows..." class="bg-grey" required="">
+					  <i><img src="./img/icon/search_icon.svg" alt="" height="25" width="25"/> </i>
+					</div>
+				  </div>
+				  <ul class="list-group w-100 px-0 h-370 border-0 pt-3 rounded-3">
+					<li class="">
+						<div class="row align-items-center mb-2 px-3">
+						  <div class="col-lg-8">
+							<h5 class="text-12 mb-0 text-white fw-semibold">Movies</h5>
+						  </div>
+						  <div class="col-lg-4 text-end">
+							<small class=" text-red fw-semibold text-nowrap text-14">See all</small>
+						  </div>
+						</div>
+					  <li>
+						<a href="#" class="list-group-item list-group-item-action border-0 px-3" aria-current="true">                       
+							<div>
+							  <h6 class="mb-0 fw-medium opacity-50 text-14 font-monorape">Dad Lakhmi</h6>
+							  <span class="text-10 fw-medium opacity-50 font-monorape">2h 30min</span>
+							</div>
+						</a>
+					  </li>
+					  <li>
+						<a href="#" class="list-group-item list-group-item-action border-0 px-3" aria-current="true">
+						  
+							<div>
+							  <h6 class="mb-0 fw-medium opacity-50 text-14 font-monorape">Dad Lakhmi</h6>
+							  <span class="text-10 fw-medium opacity-50 font-monorape">2h 30min</span>
+							</div>
+						</a>
+					  </li>
+					</li>
+					<li class="mt-3 border-top pt-3">
+					  
+						<div class="row align-items-center mb-2 px-3">
+						  <div class="col-lg-8">
+							<h5 class="text-12 mb-0 text-white fw-semibold">
+							  Shows</h5>
+						  </div>
+						  <div class="col-lg-4 text-end">
+							<small class=" text-red fw-semibold text-nowrap text-14">See all</small>
+						  </div>
+						</div>
+					  <li>
+						<a href="#" class="list-group-item list-group-item-action border-0 px-3" aria-current="true">
+						
+							<div>
+							  <h6 class="mb-0 fw-medium opacity-50 text-12 font-monorape">Dad Lakhmi</h6>
+							  <span class="text-10 fw-medium opacity-50 font-monorape">2h 30min</span>
+							</div>
+						
+						</a>
+					  </li>
+					  <li>
+						<a href="#" class="list-group-item list-group-item-action border-0 px-3" aria-current="true">
+						
+							<div>
+							  <h6 class="mb-0 fw-medium opacity-50 text-14 font-monorape">Dad Lakhmi</h6>
+							  <span class="text-10 fw-medium opacity-50 font-monorape">2h 30min</span>
+							</div>
+						
+						</a>
+					  </li>
+					</li>
+				  </ul>
+				</div>
+			  </li>
+			  <li class="list-search">
+				<a href="javascript:void(0)" class="" data-bs-toggle="dropdown" aria-expanded="true">
+				  <i><img src="./img/icon/notification.svg" alt="" /></i></span>
+				</a>
+				<div class="drop-down dropdown-menu-end position-absolute dropdown-menu h-auto">    
+				  <ul class="list-group w-100 px-0 h-370 border-0 pt-3 rounded-3">
+					<li class="">                     
+						  <div class="col-12 mb-3">
+							<h5 class="text-12 px-3 mb-0 text-white fw-semibold">3 Notification</h5>
+						  </div>
+					  <li>
+						<a href="#" class="list-group-item list-group-item-action border-0 px-3" aria-current="true">     
+						  <div class="row align-items-start">
+							<div class="col-2 text-center my-2">
+							  <i class="border border-grey p-1 rounded-circle"><img src="./img/icon/logo_icon.svg" alt="" width="23" height="20"/></i>    
+							</div>
+										  
+							<div class="col-10 ps-0">
+							  <h6 class="mb-0 fw-medium opacity-100 text-16 font-monorape">Dahiya Films</h6>
+							  <p class="mb-0 fw-medium opacity-75 text-14 font-monorape clamp clamp1">Lorem ipsum dolor dummy text for printing and typesetting industry is dummy text</p>
+							  <span class="text-10 fw-medium opacity-50 font-monorape">2h 30min</span>
+							</div>
+						  </div>
+						</a>
+					  </li>
+					  <li>
+						<a href="#" class="list-group-item list-group-item-action border-0 px-3" aria-current="true">
+						  <div class="row align-items-start">
+							<div class="col-2 text-center my-2">
+							  <i class="border border-grey p-1 rounded-circle"><img src="./img/icon/logo_icon.svg" alt="" width="23" height="20"/></i>    
+							</div>
+										  
+							<div class="col-10 ps-0">
+							  <h6 class="mb-0 fw-medium opacity-100 text-16 font-monorape">Dahiya Films</h6>
+							  <p class="mb-0 fw-medium opacity-75 text-14 font-monorape clamp clamp1">Lorem ipsum dolor dummy text for printing and typesetting industry is dummy text</p>
+							  <span class="text-10 fw-medium opacity-50 font-monorape">2h 30min</span>
+							  
+							  <figure class="my-2">
+								<img src="./img/icon/notifi_banner.jpg" alt="" class="img-fluid"/>
+							  </figure>
+							</div>
+						  </div>
+						</a>
+					  </li>
+					  <li>
+						<a href="#" class="list-group-item list-group-item-action border-0 px-3" aria-current="true">
+						  <div class="row align-items-start">
+							<div class="col-2 text-center my-2">
+							  <i class="border border-grey p-1 rounded-circle"><img src="./img/icon/logo_icon.svg" alt="" width="23" height="20"/></i>    
+							</div>
+										  
+							<div class="col-10 ps-0">
+							  <h6 class="mb-0 fw-medium opacity-100 text-16 font-monorape">Dahiya Films</h6>
+							  <p class="mb-0 fw-medium opacity-75 text-14 font-monorape clamp clamp1">Lorem ipsum dolor dummy text for printing and typesetting industry is dummy text</p>
+							  <span class="text-10 fw-medium opacity-50 font-monorape">2h 30min</span>
+							  
+							 
+							</div>
+						  </div>
+						</a>
+					  </li>
+					</li>
+				  
+				  </ul>
+				</div>
+  
+			  </li>
+			  <li>
+                <a href="profile.html" class="">
+                  <i><img src="./img/icon/profile_pic.jpg" alt="" width="30px" height="30px" class="rounded-circle"/></i>
+                </a>
+              </li>              
+			</ul>
+		  </div>
+		  <div class="col-lg-10">
+			<nav class="navbar main-nav justify-content-center d-none d-lg-flex">
+			  <ul class="text-capitalize">
+				<li><a href="index.html">Home</a></li>
+                <li><a href="movies&shows.html">Movies & Shows</a></li>
+                <li><a href="subscriptions.html">Subscriptions</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+			  </ul>
+			</nav><!-- .main-nav -->
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </header>
+	<main id="main" class="mb-5">
+		<!--==========================
+		Intro Section
+		============================-->
+		<div class="container">
+			<div class="row align-items-start justify-content-center">
+				<div class="col-lg-4 col-12 pt-4  aside-sidenav">
+					<button type="button" class="btn common-btn side-bar-btn filter-slide job_sidebar">Sidebar</button>
+					<div class="mob-hides">
+						<a href="#" class="bars bar-pos d-lg-none d-block px-4 py-2 pull-right cross-mobile bar-toggle mob-hide_t2 "><i class="fas fa-times"></i></a>
+					<div class="d-flex align-items-center justify-content-between profile_details">
+						<div class="d-flex align-items-center justify-content-start">
+						<img src="./img/icon/profile_img.svg" alt="" width="50px" />
+						<div class="col-7 profie_detail ms-3">
+							<h4 class="mb-0 text-14 font-poppins fw-semibold clamp clamp1">Arthur Edward Lim Pascua</h4>
+							<p class="mb-0 text-12 opacity-50 font-poppins clamp clamp1">arthur.edward@gmail.com</p>
+						</div>
+					</div>
+						<div class="permium text-end d-inline-flex align-items-center px-3">
+							<i class="me-xxl-2"><img src="./img/icon/crown.svg" alt="" /></i><span class="text-10 text-white d-inline-flex py-2 d-xxl-block d-none">Freemium</span>
+						</div>
+					</div>
+					<div class="profile_details my-3">
+					<h4 class="text-16 fw-normal mb-4 mt-2 d-block">My Account</h4>
+					<ul class="navbar-nav navbar-sidenav border-bottom pb-4" id="exampleAccordion">
+						<li class="nav-item" data-bs-toggle="tooltip" data-placement="right" title="Dashboard">
+							<a class="nav-link " href="profile.html">
+								<div class=" d-flex align-items-center justify-content-between">
+									<div>
+										<i class="d-icon">
+											<img src="img/icon/ic_profile.svg" alt="">
+										</i>
+										<span class="nav-link-text text-16 ms-2">Profile</span>
+									</div>
+
+									<span><img src="img/icon/arrow-right.svg" alt="" width="15px"
+											height="15px" /></span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-item" data-bs-toggle="tooltip" data-placement="right" title="Charts">
+							<a class="nav-link " href="profile-interst.html">
+								<div class=" d-flex align-items-center justify-content-between">
+									<div>
+										<i class="d-icon">
+											<img src="img/icon/ic_interst.svg" alt="">
+										</i>
+										<span class="nav-link-text text-16 ms-2">My interst</span>
+									</div>
+
+									<span><img src="img/icon/arrow-right.svg" alt="" width="15px"
+											height="15px" /></span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-item" data-bs-toggle="tooltip" data-placement="right" title="Tables">
+							<a class="nav-link " href="profile-watchlist.html">
+								<div class=" d-flex align-items-center justify-content-between">
+									<div>
+										<i class="d-icon">
+											<img src="img/icon/ic_wishlist.svg" alt="">
+										</i>
+										<span class="nav-link-text text-16 ms-2">My Watchlist</span>
+									</div>
+
+									<span><img src="img/icon/arrow-right.svg" alt="" width="15px"
+											height="15px" /></span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-item" data-bs-toggle="tooltip" data-placement="right" title="Tables">
+							<a class="nav-link " href="profile-transaction.html">
+								<div class=" d-flex align-items-center justify-content-between">
+									<div>
+										<i class="d-icon">
+											<img src="img/icon/ic_transections.svg" alt="">
+										</i>
+										<span class="nav-link-text text-16 ms-2">My Transactions</span>
+									</div>
+
+									<span><img src="img/icon/arrow-right.svg" alt="" width="15px"
+											height="15px" /></span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-item" data-bs-toggle="tooltip" data-placement="right" title="Tables">
+							<a class="nav-link " href="profile-paymentmethods.html">
+								<div class=" d-flex align-items-center justify-content-between">
+									<div>
+										<i class="d-icon">
+											<img src="img/icon/ic_payment.svg" alt="">
+										</i>
+										<span class="nav-link-text text-16 ms-2">Payment Methods</span>
+									</div>
+
+									<span><img src="img/icon/arrow-right.svg" alt="" width="15px"
+											height="15px" /></span>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<h4 class="text-16 fw-normal mt-5">Help & Support</h4>
+					<ul>
+						<li class="nav-item" data-bs-toggle="tooltip" data-placement="right" title="Tables">
+							<a class="nav-link " href="content-language.html">
+								<div class=" d-flex align-items-center justify-content-between">
+									<div>
+										<i class="d-icon">
+											<img src="img/icon/ic_language.svg" alt="">
+										</i>
+										<span class="nav-link-text text-16 ms-2">Content Language</span>
+									</div>
+
+									<span><img src="img/icon/arrow-right.svg" alt="" width="15px"
+											height="15px" /></span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-item" data-bs-toggle="tooltip" data-placement="right" title="Tables">
+							<a class="nav-link " href="aboutus.html">
+								<div class=" d-flex align-items-center justify-content-between">
+									<div>
+										<i class="d-icon">
+											<img src="img/icon/ic_about.svg" alt="">
+										</i>
+										<span class="nav-link-text text-16 ms-2">About Us</span>
+									</div>
+
+									<span><img src="img/icon/arrow-right.svg" alt="" width="15px"
+											height="15px" /></span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-item" data-bs-toggle="tooltip" data-placement="right" title="Tables">
+							<a class="nav-link " href="contactus.html">
+								<div class=" d-flex align-items-center justify-content-between">
+									<div>
+										<i class="d-icon">
+											<img src="img/icon/ic_contact.svg" alt="">
+										</i>
+										<span class="nav-link-text text-16 ms-2">Contact Us</span>
+									</div>
+
+									<span><img src="img/icon/arrow-right.svg" alt="" width="15px"
+										height="15px" /></span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-item active" data-bs-toggle="tooltip" data-placement="right" title="Tables">
+							<a class="nav-link " href="profile-privacypolicy.html">
+								<div class=" d-flex align-items-center justify-content-between">
+									<div>
+										<i class="d-icon">
+											<img src="img/icon/ic_privacy.svg" alt="">
+										</i>
+										<span class="nav-link-text text-16 ms-2">Privacy Policy</span>
+									</div>
+
+									<span><img src="img/icon/arrow-right.svg" alt="" width="15px"
+										height="15px" /></span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-item" data-bs-toggle="tooltip" data-placement="right" title="Tables">
+							<a class="nav-link " href="javascript:void(0)">
+								<div class=" d-flex align-items-center justify-content-between">
+									<div>
+										<i class="d-icon">
+											<img src="img/icon/ic_logout.svg" alt="">
+										</i>
+										<span class="nav-link-text text-16 ms-2">Logout</span>
+									</div>
+
+									<span><img src="img/icon/arrow-right.svg" alt="" width="15px"
+										height="15px" /></span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				
+				</div>
+				</div>
+				</div>
+				<div class="col-lg-8 col-12">
+					<div class="p-lg-4 profile_detail">
+						<div class="videowatcging">
+							<div class="col-12">
+							  <div class="col-12">
+								<div class="mb-4" data-aos="fade-up">
+									<!-- <h4 class="fw-semibold font-monorape text-36 ">4 Videos in Watchlist</h4> -->
+									<h4 class="fw-semibold font-monorape text-36 ">Privacy Policy</h4>
+								</div>
+							  </div>
+							</div>
+							<div class="">
+								<h3 class="text-24 fw-semibold font-monorape">Introduction</h3>
+								<p>Welcome to Dahiya Films ("we," "our," or "us"). We are committed to protecting your privacy and ensuring a safe experience for all users. This Privacy Policy outlines how we collect, use, disclose, and protect your personal information.</p>
+								<ol class="ps-3">
+									<li class="pb-lg-5 pb-4">
+										<div class="">
+											<h2 class="text-20 fw-semibold"> Information we collect</h2>
+											<p class=" text-18 mb-3 font-monorape">We collect information to improve our services and enhance your experience, including:</p>
+											<ul class="list-style-disc ps-4">
+												<li class="text-18 mb-3 font-monorape">Personal Information: Name, email, contact details, payment information.</li>
+												<li class="text-18 mb-3 font-monorape">Device Information: IP address, device ID, operating system.</li>
+												<li class="text-18 mb-3 font-monorape">Usage Data: Content preferences, watch history, app interactions.</li>
+												
+											</ul>
+										</div>
+									</li>
+									<li class="pb-lg-5 pb-4">
+										<div class="">
+											<h2 class="text-20 fw-semibold">How we use your information</h2>
+											<p class=" text-18 mb-3 font-monorape">We use your information to:</p>
+											<ul class="list-style-disc ps-4">
+												<li class="text-18 mb-3 font-monorape">Provide and personalize content and recommendations.</li>
+												<li class="text-18 mb-3 font-monorape">Process transactions and manage subscriptions.</li>
+												<li class="text-18 mb-3 font-monorape">Improve app functionality and user experience.</li>
+												<li class="text-18 mb-3 font-monorape">Communicate promotions, updates, and offers with your consent.</li>
+												
+											</ul>
+										</div>
+									</li>
+									<li class="pb-lg-5 pb-4">
+										<div class="">
+											<h2 class="text-20 fw-semibold">Information sharing and Discloser</h2>
+											<p class=" text-18 mb-3 font-monorape">We do not share your personal information with third parties except:</p>
+											<ul class="list-style-disc ps-4">
+												<li class="text-18 mb-3 font-monorape">With service providers assisting in app operations and payment processing.</li>
+												<li class="text-18 mb-3 font-monorape">As required by law, or to protect the safety, rights, and property of users and others.</li>
+												
+											</ul>
+										</div>
+									</li>
+								</ol>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<!--==========================
+    Footer
+  	============================-->
+	  <footer id="footer" class="footer pb-3">
+		<div class="container">
+		  <div class="row align-items-start justify-content-between pt-5 mb-5">
+		  <div class="col-md-3 col-12 mb-3">
+			<a href="/" class="d-flex align-items-center justify-content-lg-start justify-content-center mb-3 link-body-emphasis text-decoration-none">
+			<img src="./img/icon/logo.svg" class="img-fluid" width="150px">
+			<!-- <img src="./img/icon/themedark-logo.png" class="img-fluid" width="150px" /> -->
+			</a>
+			<p class="text-14 opacity-50 text-lg-start text-center">Lorem Ipsum is simply<br /> dummy text of the printing<br /> and typesetting
+			industry.
+			</p>
+		  </div>
+	  
+		  <div class="col-md-2 col-6 mb-3 ps-lg-0">
+			<h5 class=" fw-bold">Quick Links</h5>
+			<ul class="nav flex-column">
+			<li class="nav-item text-14"><a href="index.html" class="nav-link p-0 color-grey">Home</a></li>
+			<li class="nav-item text-14"><a href="movies&shows.html" class="nav-link p-0 color-grey ">Movies &
+			  Shows</a></li>
+			<li class="nav-item text-14"><a href="subscriptions.html" class="nav-link p-0 color-grey">Subscription</a>
+			</li>
+			<li class="nav-item text-14"><a href="downloads.html" class="nav-link p-0 color-grey">Downloads</a></li>
+			</ul>
+		  </div>
+	  
+		  <div class="col-md-2 col-6 mb-3 ps-lg-5 pe-lg-3">
+			<h5 class=" fw-bold">Others</h5>
+			<ul class="nav flex-column">
+			<li class="nav-item text-14"><a href="aboutus.html" class="nav-link p-0 color-grey">About Us</a></li>
+			<li class="nav-item text-14"><a href="contactus.html" class="nav-link p-0 color-grey">Contact Us</a>
+			</li>
+			<li class="nav-item text-14"><a href="profile-interst.html" class="nav-link p-0 color-grey">My Interest</a>
+			</li>
+			<li class="nav-item text-14"><a href="profile-privacypolicy.html" class="nav-link p-0 color-grey">Privacy Policy</a>
+			</li>
+			</ul>
+		  </div>
+		  <div class="col-md-2 col-6 mb-3 ps-lg-5 pe-lg-3">
+			<h5 class=" fw-bold">Social media</h5>
+			<ul class="nav flex-column">
+			<li class="nav-item text-14"><a href="facebook.com" class="nav-link p-0 color-grey">Facebook</a></li>
+			<li class="nav-item text-14"><a href="instagram.com" class="nav-link p-0 color-grey">Instagram</a></li>
+			<li class="nav-item text-14"><a href="youtube.com" class="nav-link p-0 color-grey">Youtube</a></li>
+			<li class="nav-item text-14"><a href="twitter.com" class="nav-link p-0 color-grey">Twitter</a></li>
+			</ul>
+		  </div>
+	  
+		  </div>
+		  <div class="pb-2 copyright">
+		  <!-- Start Copyright -->
+		  <div class=" text-center">All rights Reserved ©dahiyaottplatform, 2024</div>
+		  <!-- End Copyright -->
+		  </div>
+		</div>
+		</footer>
+	<a href="javascript:void(0)" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+	<!-- Uncomment below i you want to use a preloader -->
+	<div id="preloader"></div>
+
+	<!-- JavaScript Libraries -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/jquery/jquery.sticky.js"></script>
+	<script src="lib/jquery/jquery-migrate.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="lib/easing/easing.min.js"></script>
+	<script src="lib/mobile-nav/mobile-nav.js"></script>
+	<script src="lib/wow/wow.min.js"></script>
+	<script src="lib/waypoints/waypoints.min.js"></script>
+	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+	<!-- Template Main Javascript File -->
+	<script src="js/mobile-nav.js"></script>
+	<script src="js/main.js"></script>
+	<!-- <script>
+		const phoneInputField = document.querySelector("#phone");
+		const phoneInput = window.intlTelInput(phoneInputField, {
+			utilsScript:
+				"https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+		});
+	</script> -->
+</body>
+
+</html>
